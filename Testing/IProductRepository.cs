@@ -17,6 +17,9 @@ namespace Testing
         public void InsertProduct(Product productToInsert);
         public IEnumerable<Category> GetCategories();
         public Product AssignCategory();
+
+        //To Delete a product
+        public void DeleteProduct(Product product);
     }
 }
 
